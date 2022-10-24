@@ -1,0 +1,64 @@
+{
+    "imgstaro": [
+        {
+            "title": "taro000",
+            "src": "./src/galleryImages/taro/taro000.jpg",
+            "thumbnail": "./src/galleryImages/thumbnail/taro_thumbs/taro000.jpg",
+            "w": 1820,
+            "h": 1024
+        },
+        {
+            "title": "taro001",
+            "src": "./src/galleryImages/taro/taro001.jpg",
+            "thumbnail": "./src/galleryImages/thumbnail/taro_thumbs/taro001.jpg",
+            "w": 1024,
+            "h": 1365
+        }
+    ],
+    "imgshanako": [
+        {
+            "title": "hanako000",
+            "src": "./src/galleryImages/hanako/hanako000.jpg",
+            "thumbnail": "./src/galleryImages/thumbnail/hanako_thumbs/hanako000.jpg",
+            "w": 1024,
+            "h": 1365
+        },
+        {
+            "title": "hanako001",
+            "src": "./src/galleryImages/hanako/hanako001.jpg",
+            "thumbnail": "./src/galleryImages/thumbnail/hanako_thumbs/hanako001.jpg",
+            "w": 1365,
+            "h": 1024
+        },
+        {
+            "title": "hanako002",
+            "src": "./src/galleryImages/hanako/hanako002.jpg",
+            "thumbnail": "./src/galleryImages/thumbnail/hanako_thumbs/hanako002.jpg",
+            "w": 1365,
+            "h": 1024
+        }
+    ],
+    "imgsBoth": [
+        {
+            "title": "both000",
+            "src": "./src/galleryImages/both/both000.jpg",
+            "thumbnail": "./src/galleryImages/thumbnail/both_thumbs/both000.jpg",
+            "w": 1820,
+            "h": 1024
+        },
+        {
+            "title": "both001",
+            "src": "./src/galleryImages/both/both001.jpg",
+            "thumbnail": "./src/galleryImages/thumbnail/both_thumbs/both001.jpg",
+            "w": 1024,
+            "h": 1365
+        },
+        {
+            "title": "both002",
+            "src": "./src/galleryImages/both/both002.jpg",
+            "thumbnail": "./src/galleryImages/thumbnail/both_thumbs/both002.jpg",
+            "w": 1365,
+            "h": 1024
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+$color-navy: rgb(0, 27, 67);
+$color-navy-transparent: rgba(0, 27, 67, 0.2);
+$color-gold: rgb(224, 194, 65);
+$color-white: rgb(255, 255, 255);
+$color-cream: rgb(247, 247, 245);
+$color-cream-transparent: rgb(247, 247, 245, 0.2);
+$font-family-serif: "futura-pt","dnp-shuei-gothic-gin-std", sans-serif;
+$color-transparent: rgba(255, 255, 255, 0);
+
+$login-bg-image: url("/src/svgs/bg_signin.svg");
+$index-bg-image: url("/src/svgs/bg_top.svg");
+$border-radius-login: 35px;
+
+
+$thumb-distance: 150px;
+
+$sidebar-transition-duration: 150ms;
+
+body {
+  background-size: 375px auto;
+  font-family: $font-family-serif;
+  background-repeat: no-repeat;
+  background-color:$color-cream;
+  background-position-x: center;
+  background-position-y: top;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+}
+
+.amplify-button[data-variation='primary'] {
+  width:165px;
+  height:37px;
+  background:$color-cream;
+  border-radius:$border-radius-login;
+  color: $color-navy;
+  border: 1px solid $color-navy;
+  top: 467px;
+  left: 167px;
+  font-weight: bold;
+  letter-spacing: 1.08px;
+  opacity: 1;
+  margin: 20px auto auto;
+}
+
+// input at login form (username)
+.amplify-field-group__field-wrapper {
+  position: relative;
+  width: 100%;
+  background-color: $color-white;
+  border-radius: 35px;
+  border-width: 0;
+}
+.amplify-field-group__outer-end .amplify-select__wrapper .amplify-select, .amplify-field-group__outer-end .amplify-field-group__control, .amplify-field-group__outer-start .amplify-select__wrapper:not(:first-child) .amplify-select:not(:first-child), .amplify-field-group__outer-start--quiet .amplify-field-group__control, .amplify-field-group__outer-start .amplify-field-group__control:not(:first-child), .amplify-field-group :not(:first-child) .amplify-input {
+  border-width: 0;
+  border-radius: 35px;
+}
+
+// input at login form (username)
+.amplify-flex .amplify-field-group {
+  position: relative;
+  width: 100%;
+  border-radius: 35px;
+  border-width: 0;
+}
+.amplify-input {
+  border-width: 0;
+  border-radius: 35px;
+  background-color: $color-white;
+}
+
+
+.amplify-tabs {
+  display: none;
+
+}
+
+[data-amplify-authenticator] {
+  --amplify-colors-background-primary: var(--amplify-colors-neutral-90);
+  --amplify-colors-background-secondary: var(--amplify-colors-neutral-100);
+  --amplify-colors-brand-primary-10: var(--amplify-colors-teal-100);
+  --amplify-colors-brand-primary-80: var(--amplify-colors-teal-40);
+  --amplify-colors-brand-primary-90: var(--amplify-colors-teal-20);
+  --amplify-colors-brand-primary-100: var(--amplify-colors-teal-10);
+  --amplify-colors-font-interactive: $color-cream;
+  --amplify-components-tabs-item-active-color: $color-cream;
+  --amplify-components-tabs-item-focus-color: $color-cream;
+  --amplify-components-tabs-item-hover-color: var(--amplify-colors-orange);
+
+}
+
+[data-amplify-authenticator] [data-amplify-router] {
+  background-color: $color-transparent;
+  box-shadow: 0 0;
+  border-color: $color-cream;
+  border-width: 0;
+  border-style: var(--amplify-components-authenticator-router-border-style);
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+[data-amplify-authenticator] [data-amplify-container] {
+  place-self: normal;
+  width: 100%;
+}
+
+.container{
+  margin-bottom: 300px;
+  font-size: 14px;
+  color: $color-navy;
+  text-align: center;
+  line-height: 2;
+}
+
+.main-title  {
+  font-size: 37px;
+  letter-spacing: 2.22px;
+  margin-bottom: 35px;
+}
+
+[data-amplify-authenticator] [data-amplify-form] {
+  padding: var(--amplify-components-authenticator-form-padding);
+  padding-top: 0;
+}
+
+a:-webkit-any-link {
+  color: $color-cream;
+  text-decoration: none;
+}
+
+
+.text_icon{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: $color-navy;
+}
+
+.linked-icon {
+  color: $color-navy;
+}
+
+.text_b{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px;
+  margin: 0;
+  background: #e8e8e8;
+}
+
+.text_button {
+  border-radius: 35px;
+  border: 2px solid $color-navy;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 225px;
+}
+
+.scrolldown1{
+  /*描画位置※位置は適宜調整してください*/
+  position:absolute;
+  left:50%;
+  bottom:10px;
+  /*全体の高さ*/
+  height:150px;
+}
+
+/*Scrollテキストの描写*/
+.scrolldown1 span{
+  /*描画位置*/
+  position: absolute;
+  left:-15px;
+  top: -15px;
+  /*テキストの形状*/
+  color: $color-navy;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+}
+
+/* 線の描写 */
+.scrolldown1::after{
+  content: "";
+  /*描画位置*/
+  position: absolute;
+  top: 0;
+  /*線の形状*/
+  width: 1px;
+  height: 60px;
+  background: $color-navy;
+  /*線の動き1.4秒かけて動く。永遠にループ*/
+  animation: pathmove 1.4s ease-in-out infinite;
+  opacity:0;
+}
+
+/*高さ・位置・透過が変化して線が上から下に動く*/
+@keyframes pathmove{
+  0%{
+    height:0;
+    top:0;
+    opacity: 0;
+  }
+  30%{
+    height:30px;
+    opacity: 1;
+  }
+  100%{
+    height:0;
+    top:50px;
+    opacity: 0;
+  }
+}

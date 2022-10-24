@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint",
     "preview": "vite preview",
     "serve": "vite build && cd ./dist && npx serve",
-    "deploy": "vite build && aws s3 sync --delete --region ap-northeast-1 ./dist/ s3://saitowedding-hosting-bucket-dev && aws s3 cp --recursive --acl public-read ./src/galleryImages/ s3://saitowedding-hosting-bucket-dev/src/galleryImages/ && aws s3 cp --exclude \"*\" --include \"*.js\" --content-type \"text/javascript\" --metadata-directive=\"REPLACE\" --recursive --acl public-read ./dist/ s3://saitowedding-hosting-bucket-dev && aws cloudfront create-invalidation --distribution-id E35DNO8HGTHY1E --paths \"/*\"",
+    "deploy": "vite build && aws s3 sync --delete --region ap-northeast-1 ./dist/ s3://wedding-invitation-hosting && aws s3 cp --recursive --acl public-read ./src/galleryImages/ s3://wedding-invitation-hosting/src/galleryImages/ && aws s3 cp --exclude \"*\" --include \"*.js\" --content-type \"text/javascript\" --metadata-directive=\"REPLACE\" --recursive --acl public-read ./dist/ s3://wedding-invitation-hosting && aws cloudfront create-invalidation --distribution-id E5V277A02G1FO --paths \"/*\"",
     "get-image": "aws s3 cp --recursive s3://saitaronkaiwedding320e82a206144924ad998937a809220302-dev/public/ ./originalImage/unCategorized/"
   },
   "dependencies": {
