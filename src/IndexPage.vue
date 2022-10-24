@@ -205,8 +205,9 @@
           </div>
         </div>
 
+        <div style="margin: 60px 0">※ここに新郎新婦のツーショット画像を入れる</div>
 
-        <div class="text_b">
+        <div class="text_b" >
           山田花子
         </div>
         <div class="text text-start d-flex">
