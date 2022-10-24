@@ -17,8 +17,9 @@ URL: https://d2i4cetdp3gvsq.cloudfront.net/ <br>
 ## 使用技術スタック
 
 - Vue 3 Composition API
-- AWS Amplify
+- AWS Amplifyによる認証・データ投稿機能の実装
 - AWS S3+CloudFrontによる静的サイトホスティング
+- adobe webfontの利用
 
 # 各種コマンド
 ## Project setup
