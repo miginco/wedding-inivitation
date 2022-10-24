@@ -1,0 +1,272 @@
+<template>
+  <div>
+    <!--top-->
+    <section id="top">
+      <div  style="margin-bottom: 60%; font-size: 0">&emsp;</div>
+      <div class="container">
+        <img src="./svgs/top_title.svg"
+             alt="logo"
+        />
+      </div>
+      <div class="scrolldown1">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+            <circle cx="16" cy="4" r="3" fill="none" stroke="#001B43FF"/>
+          </svg>
+        </span>
+      </div>
+      <div style="margin-bottom: 80px">&emsp;</div>
+
+      <!-- コメント -->
+      <!--GREETING-->
+      <section id="greeting">
+        <div  style="margin-bottom: 60px; font-size: 0">&emsp;</div>
+        <div class="container">
+          <div class="main-title">GREETING</div>
+          <div class="main-text">
+            皆様いかがお過ごしでしょうか<br>
+            この夏&emsp;無事に挙式を終え<br>
+            日頃お世話になっておりますみなさまに<br>
+            私どもの門出をお見守りいただきたく<br>
+            ささやかながらパーティーを<br>
+            催すこととなりました<br>
+            <br>
+            ご多用中&emsp;誠に恐縮ではございますが<br>
+            ぜひご出席いただきたくご案内申し上げます
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!--EVENTS-->
+    <section id="events">
+      <div  style="margin-bottom: 60px; font-size: 0">&emsp;</div>
+      <div class="container">
+        <div class="main-title">
+          EVENTS
+        </div>
+
+        <div class="main-text">
+          <div class="text_icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-calendar4" viewBox="0 0 32 32">
+              <g transform="scale(2)">
+                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z"/>
+              </g>
+            </svg>
+          </div>
+          <div class="text_b">
+            2022.xx.xx.Sat
+          </div>
+
+          受付&emsp;11:30<br>
+          開始&emsp;12:00<br>
+          会費&emsp;¥12,000<br>
+          <div style="font-size: 10px">
+            お車代の代わりに<br>
+            会費制とさせていただきます<br>
+          </div>
+        </div>
+
+        <div class="main-text">
+          <div class="text_icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 32 32">
+              <g transform="scale(2)">
+              <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </g>
+            </svg>
+          </div>
+          <div class="text_b">
+            Elegante Vita
+          </div>
+          <p>
+            東京都xx区xxxx x-xx-xx
+          </p>
+          <p>
+            ＪＲ山手線 xxx駅西口徒歩x分<br>
+            東京メトロxxx線 xxx駅徒歩4分<br>
+          </p>
+          <div class="text_icon linked-icon">
+            <a target="_blank" rel="noopener noreferrer" style="margin: 0 40px; color: rgb(0, 27, 67)" href="https://elegantevita.official-wedding.jp/map/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-calendar4" viewBox="0 0 32 32">
+                <g transform="scale(1.8)">
+                  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+                </g>
+              </svg>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" style="margin: 0 40px; color: rgb(0, 27, 67)" href="https://www.instagram.com/elegantevita_ebisu_official/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-calendar4" viewBox="0 0 32 32">
+                <g transform="scale(2)">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </g>
+              </svg>
+            </a>
+
+          </div>
+          <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.1248970316083!2d139.70448431581875!3d35.649294339329266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b43f45a9537%3A0x36c5ef29658e0a5e!2z5oG15q-U5a-_IOOCqOODrOOCrOODs-ODhuODtOOCo-ODvOOCvw!5e0!3m2!1sja!2sjp!4v1664721048806!5m2!1sja!2sjp&z=10"
+              class="gmap"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+          />
+
+        </div>
+      </div>
+    </section>
+
+    <!--ATTENDANCE-->
+    <section id="attendance">
+      <div  style="margin-bottom: 60px; font-size: 0">&emsp;</div>
+
+      <div class="container">
+        <div class="main-title" style="margin-bottom: -30px">ATTENDANCE</div>
+        <div class="main-text">
+          <div class="text_icon">
+            <img src="./svgs/attendance.svg" />
+          </div>
+          <p>
+            お手数ですが<br>
+            <u>xx月xx日(日)</u>までに<br>
+            お返事いたけますと幸いです
+          </p>
+          <p>
+            出欠フォームはこちら
+          </p>
+        </div>
+        <div class="text_button">
+          <a href="/attendance" style="color: rgb(0, 27, 67)">
+          ATTENDANCE FORM
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--GALLARY-->
+    <section id="gallery">
+      <div  style="margin-bottom: 60px; font-size: 0">&emsp;</div>
+
+      <div class="container">
+        <div class="main-title">GALLARY</div>
+        <div class="main-text">
+          <div class="text_icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 32 32">
+              <g transform="scale(2)">
+                  <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
+                  <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+              </g>
+            </svg>
+          </div>
+          <p>
+            みんなでつくるアルバム
+          </p>
+          <p>
+            私たちとの写真をお持ちでしたら<br>
+            ぜひギャラリーページより追加してください<br>
+            あんなことやこんなこと…<br>
+            楽しい思い出を共有しましょう
+          </p>
+
+        </div>
+        <div class="text_button">
+          <a href="/gallery" style="color: rgb(0, 27, 67)">
+            GALLARY PAGE
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!--PROFILE-->
+    <section id="profile">
+      <div  style="margin-bottom: 60px; font-size: 0">&emsp;</div>
+
+      <div class="container">
+        <div class="main-title">PROFILE</div>
+        <div class="text_b">
+          田中太郎
+        </div>
+        <div class="text text-start d-flex">
+          <div class="l_bh1">
+            <span class="l_h1">BIRTH</span><br>
+            1990.xx.xx<br>
+          </div>
+          <div class="l_bh1">
+            <span class="l_h1">WORK</span><br>
+            ソフトウェアエンジニア<br>
+          </div>
+          <div class="l_bh1">
+            <span class="l_h1">LIKES</span><br>
+            技術 CG<br>
+          </div>
+          <div class="l_bh1">
+            <span class="l_h1">MESSAGE</span><br>
+            いつもありがとうございます！<br>楽しい時間にしたいと思います！
+          </div>
+        </div>
+
+        <div style="margin: 50px 0">
+          <img class="profile-img" src="/WEB_invitation_SP_profile.png" alt="profile_image"/>
+        </div>
+
+        <div class="text_b">
+          山田花子
+        </div>
+        <div class="text text-start d-flex">
+           <div class="l_bh1">
+              <span class="l_h1">BIRTH</span><br>
+             1995.xx.xx<br>
+            </div>
+            <div class="l_bh1">
+              <span class="l_h1">WORK</span><br>
+              グラフィックデザイナー<br>
+            </div>
+            <div class="l_bh1">
+              <span class="l_h1">LIKES</span><br>
+              お絵描き<br>
+            </div>
+          <div class="l_bh1">
+              <span class="l_h1">MESSAGE</span><br>
+              皆さまとお会いできることを<br>楽しみにしてます！！
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container" style="margin-bottom: 100px; margin-top: -200px">
+      <img src="./svgs/top_endtext.svg"  alt="let's have a good time!"/>
+    </div>
+
+  </div>
+</template>
+
+<script setup lang="ts">
+</script>
+
+<style scoped lang="scss">
+.l_h1 {
+  font-size: 15px;
+}
+
+.l_bh1 {
+  margin-top: 20px;
+}
+
+.profile-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.gmap {
+  width: 100%;
+  height: 250px;
+  max-width: 400px;
+  margin: 0 auto;
+  border: none;
+}
+
+
+
+
+</style>
