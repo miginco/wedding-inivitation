@@ -296,7 +296,7 @@ const inputAddress = () => {
 @import "src/assets/scss/variables.scss";
 
 .main {
-  background-image: url("./svgs/bg_top.svg");
+  background-image: url("./svgs/attendance.bg.svg");
   margin-top: 0;
   margin-bottom: 0;
   background-repeat: no-repeat;
